@@ -4,24 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
+    <title>SAB FERRETERIA - Registrar un producto</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  
+
   <body>
     <header>SAB FERRETERIA</header>
-  <nav>
-    <a href="">Registrar productos</a>
-    <a href="">Quienes somos</a>
-    <a href="">Vista de producto</a>
-  </nav>
-      <!-- <main> -->
-        <section>
-            <h1>holaa</h1>
-        </section>
-      <!-- </main> -->
-    
+    <nav>
+      <a href="">Registrar productos</a>
+      <a href="pagina2/pagina2.html">Indicaciones</a>
+      <a href="">Vista de producto</a>
+    </nav>
+<main>
+    <section>
+      <h1 id="titulo">Registro de Producto</h1>
+      <form>
+        <label for="nombre">Nombre del producto:</label><br />
+        <input type="text" id="nombre" name="nombre" /><br /><br />
+
+        <label for="categoria">Categoría:</label><br />
+        <select id="categoria" name="categoria">
+          <option value="pinturas">Pinturas</option>
+          <option value="construccion">Construccion</option>
+          <option value="pvc">PVC</option>
+          <option value="electricos">Electricos</option>
+        </select><br /><br />
+
+        <label for="imagen">Imagen:</label><br />
+        <input type="file" id="imagen" name="imagen" /><br /><br />
+
+        <label for="codigo">Código de producto:</label><br />
+        <input type="text" id="codigo" name="codigo" /><br /><br />
+
+        <label for="precio">Precio:</label><br />
+        <input type="number" id="precio" name="precio" step="0.01" /><br /><br />
+
+        <label for="atributo1">Cliente:</label><br />
+        <select id="atributo1" name="punto_venta">
+          <option value="punto1">Empresa</option>
+          <option value="punto2">Cliente comun</option>
+      </select><br /><br />
+
+        <label for="atributo2">Punto de venta:</label><br />
+        <select id="atributo2" name="punto_venta">
+            <option value="punto1">Punto 1</option>
+            <option value="punto2">Punto 2</option>
+            <option value="punto3">Punto 3</option>
+        </select><br /><br />
+
+        <label for="atributo3">Cantidad:</label><br />
+        <input type="text" id="atributo3" name="atributo3" /><br /><br />
+
+        <button type="submit">Registrar</button>
+        <button type="reset">Limpiar campos</button>
+      </form>
+    </section>
+
     <script src="variables.js" type="text/javascript"></script>
+  </main>
   </body>
-  
 </html>
