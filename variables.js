@@ -1,10 +1,10 @@
-let productos = [
+export let productos = [
     {
         nombre: "Tiner caneca",
         categoria: "Pintura",
         codigo: "P9191",
         precio: 4000,
-        imagen: "img/thinner caneca",
+        imagen: "../img/thinner caneca.jpg",
         cliente: "cliente común",
         punto_de_venta: "punto 2",
         cantidad: 15
@@ -14,7 +14,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P3859",
         precio: 7500,
-        imagen: "img/thinner botella",
+        imagen: "../img/thinner botella.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 3
@@ -24,7 +24,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P5880",
         precio: 16500,
-        imagen: "img/thinner medio galon",
+        imagen: "../img/thinner medio galon.jpg",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 2
@@ -34,7 +34,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P9358",
         precio: 30000,
-        imagen: "img/thinner galon",
+        imagen: "../img/thinner galon.avif",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 13
@@ -44,7 +44,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P6780",
         precio: 4300,
-        imagen: "img/brocha 1 pulgada",
+        imagen: "../img/brocha 1 pulgada.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 2",
         cantidad: 20
@@ -54,7 +54,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P2128",
         precio: 6000,
-        imagen: "img/brocha 2 pulgadas",
+        imagen: "../img/brocha 2 pulgadas.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 1
@@ -64,7 +64,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P9090",
         precio: 7900,
-        imagen: "img/brocha 3 pulgada",
+        imagen: "../img/brocha 3 pulgada.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 12
@@ -74,7 +74,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P3117",
         precio: 6900,
-        imagen: "img/rodillo de felpa 9 pulgadas",
+        imagen: "../img/rodillo de felpa 9 pulgadas.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 9
@@ -84,7 +84,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P3560",
         precio: 5500,
-        imagen: "img/rodillo espuma 5cm",
+        imagen: "../img/rodillo espuma 5cm.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 19
@@ -94,7 +94,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P3311",
         precio: 2000,
-        imagen: "img/lijas",
+        imagen: "../img/lijas.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 2
@@ -104,7 +104,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P6345",
         precio: 84900,
-        imagen: "img/esmalte domestico galon",
+        imagen: "../img/esmalte domestico galon.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 3",
         cantidad: 18
@@ -114,7 +114,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P4892",
         precio: 31800,
-        imagen: "img/esmalte domestico 1 cuarto",
+        imagen: "../img/esmalte domestico 1 cuarto.avif",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 5
@@ -124,7 +124,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P1158",
         precio: 16900,
-        imagen: "img/esmalte domestico 1 octavo",
+        imagen: "../img/esmalte domestico 1 octavo.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 9
@@ -134,7 +134,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P1593",
         precio: 60000,
-        imagen: "img/vinilo galon tipo 1",
+        imagen: "../img/vinilo galon tipo 1.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 2",
         cantidad: 8
@@ -144,7 +144,7 @@ let productos = [
         categoria: "Pintura",
         codigo: "P2052",
         precio: 21500,
-        imagen: "img/vinilo 1 cuarto tipo 1",
+        imagen: "../img/vinilo 1 cuarto tipo 1.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 5
@@ -154,7 +154,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P1835",
         precio: 30000,
-        imagen: "img/cemento gris 50k",
+        imagen: "../img/cemento gris 50k.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 5
@@ -164,7 +164,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P3407",
         precio: 19000,
-        imagen: "img/cemento gris 25k",
+        imagen: "../img/cemento gris 25k.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 5
@@ -174,7 +174,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P3348",
         precio: 1500,
-        imagen: "img/cemento gris 1k",
+        imagen: "../img/cemento gris 1k.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 9
@@ -184,7 +184,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P8974",
         precio: 35000,
-        imagen: "img/estuco listo 25k",
+        imagen: "../img/estuco listo 25k.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 2",
         cantidad: 7
@@ -194,7 +194,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P7623",
         precio: 20000,
-        imagen: "img/estuco listo 10k",
+        imagen: "../img/estuco listo 10k.avif",
         cliente: "empresa",
         punto_de_venta: "punto 2",
         cantidad: 4
@@ -204,7 +204,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P3930",
         precio: 2000,
-        imagen: "img/estuco listo 1k",
+        imagen: "../img/estuco listo 1k.webp",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 2
@@ -214,7 +214,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P2376",
         precio: 35900,
-        imagen: "img/pegante ceramico 25k",
+        imagen: "../img/pegante ceramico 25k.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 2
@@ -224,7 +224,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P6848",
         precio: 2000,
-        imagen: "img/pegante ceramico 1k",
+        imagen: "../img/pegante ceramico 1k.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 3",
         cantidad: 20
@@ -234,7 +234,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P1469",
         precio: 6000,
-        imagen: "img/arena x bulto",
+        imagen: "../img/arena x bulto.webp",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 20
@@ -244,7 +244,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P8233",
         precio: 9000,
-        imagen: "img/arena x bulto",
+        imagen: "../img/arena x bulto.webp",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 2
@@ -254,7 +254,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P7548",
         precio: 9500,
-        imagen: "img/alambre x 1k",
+        imagen: "../img/alambre x 1k.webp",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 16
@@ -264,7 +264,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P4990",
         precio: 16500,
-        imagen: "img/fragua caja 2k",
+        imagen: "../img/fragua caja 2k.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 19
@@ -274,7 +274,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P9465",
         precio: 8000,
-        imagen: "img/palustre",
+        imagen: "../img/palustre.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 2",
         cantidad: 15
@@ -284,7 +284,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P6205",
         precio: 12500,
-        imagen: "img/llana lisa",
+        imagen: "../img/llana lisa.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 2",
         cantidad: 8
@@ -294,7 +294,7 @@ let productos = [
         categoria: "Construcción",
         codigo: "P4209",
         precio: 13000,
-        imagen: "img/llana dentada",
+        imagen: "../img/llana dentada.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 2
@@ -304,7 +304,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P7815",
         precio: 16000,
-        imagen: "img/tubo 1 medio presion",
+        imagen: "../img/tubo 1 medio presion.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 2",
         cantidad: 8
@@ -314,7 +314,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P3425",
         precio: 700,
-        imagen: "img/codo 1 medio presion",
+        imagen: "../img/codo 1 medio presion.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 3",
         cantidad: 9
@@ -324,7 +324,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P2129",
         precio: 6000,
-        imagen: "img/soladura pvc",
+        imagen: "../img/soladura pvc.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 2
@@ -334,7 +334,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P3065",
         precio: 4500,
-        imagen: "img/limpiador pvc",
+        imagen: "../img/limpiador pvc.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 16
@@ -344,7 +344,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P4312",
         precio: 2800,
-        imagen: "img/codo sanitario 2 pulgas",
+        imagen: "../img/codo sanitario 2 pulgas.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 3",
         cantidad: 19
@@ -354,7 +354,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P1441",
         precio: 5800,
-        imagen: "img/tee sanitario 2 pulgadas",
+        imagen: "../img/tee sanitario 2 pulgadas.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 3",
         cantidad: 20
@@ -364,7 +364,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P1747",
         precio: 2500,
-        imagen: "img/union sanitario 2 pulgadas",
+        imagen: "../img/union sanitario 2 pulgadas.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 2",
         cantidad: 17
@@ -374,7 +374,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P8601",
         precio: 6500,
-        imagen: "img/yee sanitario 2 pulgadas",
+        imagen: "../img/yee sanitario 2 pulgadas.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 2",
         cantidad: 15
@@ -384,7 +384,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P7858",
         precio: 11000,
-        imagen: "img/tubo sanitario 2 pulgadas",
+        imagen: "../img/tubo sanitario 2 pulgadas.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 2",
         cantidad: 16
@@ -394,7 +394,7 @@ let productos = [
         categoria: "PVC",
         codigo: "P6713",
         precio: 7500,
-        imagen: "img/sifon sanitario 2 pulgadas",
+        imagen: "../img/sifon sanitario 2 pulgadas.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 2",
         cantidad: 9
@@ -404,7 +404,7 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P4228",
         precio: 5000,
-        imagen: "img/toma corriente doble",
+        imagen: "../img/toma corriente doble.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 16
@@ -414,7 +414,7 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P2021",
         precio: 5000,
-        imagen: "img/interruptor sencillo",
+        imagen: "../img/interruptor sencillo.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 3
@@ -424,7 +424,7 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P2288",
         precio: 6500,
-        imagen: "img/toma + interruptor",
+        imagen: "../img/toma + interruptor.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 20
@@ -434,7 +434,7 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P6004",
         precio: 4000,
-        imagen: "img/cable duplex 12",
+        imagen: "../img/cable duplex 12.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 1",
         cantidad: 20
@@ -444,7 +444,7 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P4844",
         precio: 2900,
-        imagen: "img/alambre 14",
+        imagen: "../img/alambre 14.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 3
@@ -454,7 +454,7 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P2163",
         precio: 5000,
-        imagen: "img/tubo electrico",
+        imagen: "../img/tubo electrico.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 1",
         cantidad: 4
@@ -464,7 +464,7 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P9350",
         precio: 1000,
-        imagen: "img/curva electrica",
+        imagen: "../img/curva electrica.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 6
@@ -474,7 +474,7 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P2673",
         precio: 5000,
-        imagen: "img/canaleta",
+        imagen: "../img/canaleta.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 3",
         cantidad: 15
@@ -484,7 +484,7 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P6302",
         precio: 3000,
-        imagen: "img/clavija 10 amp",
+        imagen: "../img/clavija 10 amp.jfif",
         cliente: "empresa",
         punto_de_venta: "punto 3",
         cantidad: 4
@@ -494,9 +494,13 @@ let productos = [
         categoria: "Eléctricos",
         codigo: "P2070",
         precio: 4000,
-        imagen: "img/toma aereo 10 amp",
+        imagen: "../img/toma aereo 10 amp.jfif",
         cliente: "cliente común",
         punto_de_venta: "punto 2",
         cantidad: 18
     }
 ];
+
+
+
+    

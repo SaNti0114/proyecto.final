@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>SAB FERRETERIA - Registrar un producto</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <header>SAB FERRETERIA</header>
-    <nav>
-      <a href="">Registrar productos</a>
-      <a href="pagina2/pagina2.html">Indicaciones</a>
-      <a href="">Vista de producto</a>
-    </nav>
-<main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>SAB FERRETERIA - Registrar un producto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>SAB FERRETERIA</header>
+  <nav>
+    <a href="">Registrar productos</a>
+    <a href="pagina2/pagina2.html">Indicaciones</a>
+    <a href="pagina3/pagina3.html">Vista de producto</a>
+    <a href="pagina4/pagina4.html">Buscar productos</a>
+  </nav>
+  <main>
     <section>
-      <h1 id="titulo">Registro de Producto</h1>
-      <form>
+      <h1 id="titulo">REGISTRO DE PRODUCTOS</h1>
+      <form id="form">
         <label for="nombre">Nombre del producto:</label><br />
         <input type="text" id="nombre" name="nombre" /><br /><br />
 
@@ -31,7 +33,9 @@
         </select><br /><br />
 
         <label for="imagen">Imagen:</label><br />
-        <input type="file" id="imagen" name="imagen" /><br /><br />
+        <select id="img1" name="punto_venta">
+          
+        </select><br /><br />
 
         <label for="codigo">Código de producto:</label><br />
         <input type="text" id="codigo" name="codigo" /><br /><br />
@@ -40,16 +44,16 @@
         <input type="number" id="precio" name="precio" step="0.01" /><br /><br />
 
         <label for="atributo1">Cliente:</label><br />
-        <select id="atributo1" name="punto_venta">
+        <select id="atributo1" name="cliente">
           <option value="punto1">Empresa</option>
           <option value="punto2">Cliente comun</option>
-      </select><br /><br />
+        </select><br /><br />
 
         <label for="atributo2">Punto de venta:</label><br />
         <select id="atributo2" name="punto_venta">
-            <option value="punto1">Punto 1</option>
-            <option value="punto2">Punto 2</option>
-            <option value="punto3">Punto 3</option>
+          <option value="punto1">Punto 1</option>
+          <option value="punto2">Punto 2</option>
+          <option value="punto3">Punto 3</option>
         </select><br /><br />
 
         <label for="atributo3">Cantidad:</label><br />
@@ -59,8 +63,10 @@
         <button type="reset">Limpiar campos</button>
       </form>
     </section>
-
-    <script src="variables.js" type="text/javascript"></script>
+    
+    <script src="registro.js" type="module"></script>
+    <script src="variables.js" type="module"></script>
   </main>
-  </body>
+</body>
+
 </html>

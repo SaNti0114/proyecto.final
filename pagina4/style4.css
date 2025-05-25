@@ -1,0 +1,102 @@
+/*
+    colores 
+    rojo EF233C
+    blanco EDF2F4
+    gris 8D99AE
+    Rojo oscuro D90429
+    azul 2B2D42 2b2d42
+    */
+
+* {
+    margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+header {
+    width: 100vw;
+    /* 100% del viewport width */
+    height: 100px;
+    /* Ajusta la altura según necesites */
+    background-color: #ec1b30;
+    /* Color rojo */
+    font-size: 80px;
+    text-align: center;
+}
+
+nav {
+    background-color: #d90429;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+nav a {
+    margin: 15px;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2b2d42;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Permite que los elementos se ajusten en pantallas pequeñas */
+}
+
+/* Estilo para las etiquetas */
+.search-bar label {
+    margin-right: 10px;
+    font-weight: bold;
+    color:#EDF2F4;
+    /* Color de letras en blanco */
+    margin-left: 10px;
+}
+
+/* Estilo para inputs y selects */
+.search-bar input,
+.search-bar select {
+    margin: 0 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#nombreProducto{
+    color: #2b2d42;
+}
+
+/* Color y estilos de los select */
+.search-bar select {
+    color: #EDF2F4;
+    /* color de letra en select */
+    background-color: #2b2d42;
+    /* fondo en select */
+}
+
+/* Botón estilo */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #D90429;
+    color: #EDF2F4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #D90429;
+}

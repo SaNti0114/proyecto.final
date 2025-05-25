@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SAB FERRETERIA - Buscar productos</title>
+    <link rel="stylesheet" href="style4.css" />
+</head>
+
+<body>
+    <header>SAB FERRETERIA</header>
+    <nav>
+        <a href="../index.html">Registrar productos</a>
+        <a href="../pagina4/pagina2.html">Indicaciones</a>
+        <a href="../pagina3/pagina3.html">Vista de producto</a>
+        <a href="">Buscar productos</a>
+    </nav>
+    <main>
+        <div class="search-bar">
+            <label for="nombreProducto">Nombre:</label>
+            <input type="text" id="nombreProducto" placeholder="Buscar producto por nombre">
+
+            <label for="categorySelect">Categoría:</label>
+            <select id="categorySelect">
+                <option value="pinturas">Pinturas</option>
+                <option value="construccion">Construccion</option>
+                <option value="pvc">PVC</option>
+                <option value="electricos">Electricos</option>
+                <!-- Agregar más opciones aquí según sea necesario -->
+            </select>
+
+            <label for="storeSelect">Punto de Venta:</label>
+            <select id="storeSelect">
+                <option value="tienda1">Punto 1</option>
+                <option value="tienda2">Punto 2</option>
+                <option value="online">Punto 3</option>
+                <!-- Agregar más opciones aquí según sea necesario -->
+            </select>
+
+            <button onclick="buscarProductos()">Buscar</button>
+        </div>
+    </main>
+</body>
+
+
+</html>
