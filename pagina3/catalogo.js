@@ -89,23 +89,3 @@ btnSiguiente.addEventListener('click',()=>{
 
 
 
-// for(let i=0;i<=productos.length;i++){
-//     contenedorcard.innerHTML += 
-//     ` 
-//     <div class="card">
-//      <div class="image"><img src="${productos[i].imagen}" alt=""></div>
-//         <div class="content">
-//       <p class="desc">
-//       <strong>Nombre: </strong> ${productos[i].nombre} <br>
-//       <strong>Categoria: </strong> ${productos[i].categoria} <br>
-//       <strong>Codigo: </strong> ${productos[i].codigo} <br>
-//       <strong>Precio: </strong> ${productos[i].precio} <br>
-//       <strong>Cliente: </strong> ${productos[i].cliente} <br>
-      
-//       </p>
-
-    
-//     </div>
-//     </div>
-//     `;
-// }

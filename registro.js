@@ -13,13 +13,13 @@ window.addEventListener("DOMContentLoaded", () => {
 
 
 
-
+const regexMayusMinus = /(?=.*[a-z])(?=.*[A-Z])/; // Al menos una minúscula y una mayúscula
+const regexDosNumeros = /(?:\D*\d){2,}/; //Almenos 2 numeros
 let img = document.getElementById("img1");
 //Aqui mostramos solo las 50 imagenes que tenemos en nustro 
 for (let i = 0; i < productos.length; i++) {
   console.log(productos[i].imagen);
-  // el insertAdJacentHTML se usa para añadir texto al dom sin modificar nada,
-  // ya que el valor que se pone es tipo value y no tipo string por eso debemos usar el insertAdjacentHTML
+  // el insertAdJacentHTML se usa para añadir texto al dom en una posicion especifica,
   //el primer parametre es el lugar y el 2 ya es lo que se quiere agregar
   img.insertAdjacentHTML("beforeend",
     `<option value="${productos[i].imagen}">Imagen ${i + 1}</option>`
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("productos", JSON.stringify(productosGuardados));
     formulario.reset();
     alert("Producto registrado correctamente.");
-    window.location.href = "/pagina3/pagina3.html";
+    window.location.href = "../pagina3/pagina3.html";
   });
 });
 
@@ -104,46 +104,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-// const formulario = document.getElementById("myForm");
-
-// formulario.addEventListener("submit", (evitarReset) => {
-//   evitarReset.preventDefault(); //evita reseteo de campos al presionar el boton de registrar
-
-//   const nombre = document.getElementById("nombre").value; //ese "nombre" es el ID del input
-//   console.log(nombre);
-
-//   const serial = document.getElementById("serial").value;
-//   console.log(serial);
-
-//   const modelo = document.getElementById("modelo").value;
-//   console.log(modelo);
-
-//   const categoria = document.getElementById("categoria").value;
-//   console.log(categoria);
-
-//   const imagen = "../img/IMAGENES DATA/Dell Latitude 7430.jpg";
-//   console.log(imagen);
-
-//   const codigo = document.getElementById("codigo").value;
-//   console.log(codigo);
-
-//   const precio = document.getElementById("precio").value;
-//   console.log(precio);
-
-//   const garantia = document.getElementById("garantia").value;
-//   console.log(garantia);
-
-//   const producto = {
-//     nombre: nombre,
-//     serial: serial,
-//     modelo: modelo,
-//     categoria: categoria,
-//     imagen: imagen,
-//     codigo: codigo,
-//     precio: precio,
-//     garantia: garantia
-// };
-//     saveInLocalStorage(producto);
-//     // alert("Producto registrado exitosamente ✅");
-//   }
-// );
